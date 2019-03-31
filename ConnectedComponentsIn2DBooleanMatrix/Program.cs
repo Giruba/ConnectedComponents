@@ -31,9 +31,6 @@ namespace ConnectedComponentsIn2DBooleanMatrix
                     + exception.Message);
             }
 
-
-
-
             Console.ReadLine();
         }
 
@@ -90,7 +87,6 @@ namespace ConnectedComponentsIn2DBooleanMatrix
                 matrix[index, secIndex] == 1 && visited[index, secIndex] != 1) {
                 return true;
             }
-
 
             return result;
         }
